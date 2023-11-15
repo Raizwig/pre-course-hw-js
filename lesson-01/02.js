@@ -1,7 +1,8 @@
 // code
-let number1 = Math.floor(Math.random() * 100);
-if (number1 %2 === 0) {
-  console.log("число чётное!");
+let number1 = alert(Math.floor(Math.random() * 100));
+let checkingTheNumber = +prompt('введите число');
+if (checkingTheNumber %2 === 0) {
+  alert(`${checkingTheNumber} -число чётное!`);
 }else{
-  console.log("число не чётное!");
+  alert(`${checkingTheNumber} -число нечётное!`);
 }
