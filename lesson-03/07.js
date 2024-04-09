@@ -6,7 +6,8 @@ const numbers = [
 
 for (let i = 0; i < numbers.length; i++) {
   for (let j = 0; j < numbers[i].length; j++) {
-    if(j % 2 !== 0)
-    console.log(numbers[i][j]);
+    if (j % 2 !== 0) {
+      console.log(numbers[i][j]);
+    }
   }
 }
