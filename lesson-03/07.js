@@ -5,11 +5,8 @@ const numbers = [
 ];
 
 for (let i = 0; i < numbers.length; i++) {
-  const element = numbers[i];
-  for (let j = 0; j < element.length; j++) {
-    const arrNumbers = element[j];
-    if (arrNumbers % 2 === 0) {
-      console.log(arrNumbers);
-    }
+  for (let j = 0; j < numbers[i].length; j++) {
+    if(j % 2 !== 0)
+    console.log(numbers[i][j]);
   }
 }
